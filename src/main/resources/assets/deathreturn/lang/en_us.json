@@ -1,0 +1,21 @@
+{
+	"deathreturn.screen.title": "Death Return",
+	"deathreturn.screen.death_note": "You died. Time is rewinding...",
+	"deathreturn.screen.phase.stopping": "Leaving the current timeline...",
+	"deathreturn.screen.phase.restoring": "Rewinding the world...",
+	"deathreturn.screen.phase.reentering": "Rebuilding the timeline...",
+	"deathreturn.screen.phase.done": "Done",
+	"deathreturn.screen.phase.error": "Rewind failed! The world files may not be fully restored. Do not keep playing; check the backup folder.",
+	"deathreturn.screen.back_to_title": "Back to Title",
+
+	"deathreturn.checkpoint.created": "§6[Death Return]§r Checkpoint created. Death will return you to this moment.",
+	"deathreturn.checkpoint.failed": "§c[Death Return] Checkpoint creation failed: %s",
+	"deathreturn.checkpoint.none": "§c[Death Return] No checkpoint yet. Use /save to create one.",
+	"deathreturn.checkpoint.busy": "§c[Death Return] Checkpoint IO in progress, try again shortly.",
+
+	"deathreturn.load.started": "§6[Death Return]§r Rewinding to checkpoint...",
+	"deathreturn.load.singleplayer_only": "Rewind is only supported in singleplayer.",
+
+	"deathreturn.status.exists": "§6[Death Return]§r Checkpoint exists, created at %s",
+	"deathreturn.status.none": "§6[Death Return]§r No checkpoint (use /save to create one)."
+}

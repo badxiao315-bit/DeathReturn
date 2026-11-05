@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# 本机携带的运行时/安装器（体积大，不入库）
+jdk25/
+fabric-api-*.jar
+fabric-installer.jar
+
+# 运行目录（开发服世界、日志）
+run/
+
+# 本机调试脚本与临时文件
+*.ps1
+/tmp/
+logs/
+
+# Claude 本地会话配置
+.claude/

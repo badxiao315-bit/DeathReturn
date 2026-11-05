@@ -1,0 +1,21 @@
+{
+	"deathreturn.screen.title": "死亡回归",
+	"deathreturn.screen.death_note": "你死了。时间正在回溯……",
+	"deathreturn.screen.phase.stopping": "正在脱离当前时间线……",
+	"deathreturn.screen.phase.restoring": "正在回溯世界……",
+	"deathreturn.screen.phase.reentering": "正在重建时间线……",
+	"deathreturn.screen.phase.done": "完成",
+	"deathreturn.screen.phase.error": "回溯失败！世界文件可能未完全恢复，请勿直接游玩，检查备份目录。",
+	"deathreturn.screen.back_to_title": "返回主菜单",
+
+	"deathreturn.checkpoint.created": "§6[死亡回归]§r 检查点已创建，死亡将回到此刻",
+	"deathreturn.checkpoint.failed": "§c[死亡回归] 检查点创建失败：%s",
+	"deathreturn.checkpoint.none": "§c[死亡回归] 尚无检查点，先使用 /save 创建",
+	"deathreturn.checkpoint.busy": "§c[死亡回归] 检查点正在写入中，请稍后再试",
+
+	"deathreturn.load.started": "§6[死亡回归]§r 开始回溯到检查点……",
+	"deathreturn.load.singleplayer_only": "回溯仅支持单人世界",
+
+	"deathreturn.status.exists": "§6[死亡回归]§r 检查点存在，创建于 %s",
+	"deathreturn.status.none": "§6[死亡回归]§r 当前没有检查点（使用 /save 创建）"
+}

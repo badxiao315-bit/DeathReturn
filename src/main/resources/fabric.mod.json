@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "deathreturn",
+	"version": "${version}",
+	"name": "Death Return",
+	"description": "死亡回归：死亡时整个世界自动回溯到上次 /save 的检查点。Death turns back time for the whole world.",
+	"authors": [
+		"Xiao"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.deathreturn.DeathReturnMod"
+		],
+		"client": [
+			"com.deathreturn.client.DeathReturnClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
