@@ -21,7 +21,7 @@ import org.slf4j.LoggerFactory;
 public class DeathReturnMod implements ModInitializer {
 	public static final String MOD_ID = "deathreturn";
 	/** 构建标识：游戏内 /deathreturn 会显示，用于确认加载的是新版 jar */
-	public static final String VERSION = "1.0.0";
+	public static final String VERSION = "1.0.1";
 	public static final Logger LOGGER = LoggerFactory.getLogger("DeathReturn");
 
 	public static DeathReturnConfig config;

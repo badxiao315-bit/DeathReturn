@@ -93,10 +93,15 @@ public final class RewindController {
 			if (worldDir == null) {
 				throw new IllegalStateException("world directory unknown");
 			}
+			long start = System.currentTimeMillis();
+			java.util.concurrent.atomic.AtomicLong totalBytes = new java.util.concurrent.atomic.AtomicLong(-1);
 			BackupManager.restoreCheckpoint(worldDir, (done, total) -> {
+				totalBytes.set(total);
 				progress = total > 0 ? (float) ((double) done / total) : -1f;
 			});
 			progress = 1f;
+			LOGGER.info("Checkpoint restored in {} ms ({})", System.currentTimeMillis() - start,
+					totalBytes.get() > 0 ? String.format("%.1f MB", totalBytes.get() / 1048576.0) : "size unknown");
 
 			mc.execute(() -> {
 				phase.set(Phase.REENTERING);
